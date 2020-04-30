@@ -4,6 +4,8 @@
 This README is for a shell written in C that provides access to basic system functions as well as a few custom commands described below.
 A manual is accessible in the shell via "help", "man", or "manual".
 
+This was created as part of a Lab Assignment for Dr. Szilard Vajda at Central Washington University.
+
 ## Requirements
 This shell is meant to be ran on a **macOS** system.
 There are no other requirements.

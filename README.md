@@ -5,16 +5,16 @@ This README is for a shell written in C that provides access to basic system fun
 A manual is accessible in the shell via "help", "man", or "manual".
 
 ## Requirements
-This shell is meant to be ran on a \textbf{macOS} system.\\
+This shell is meant to be ran on a **macOS** system.
 There are no other requirements.
 
 ## Custom Commands
 Custom commands can be used in the form '[command] [OPTION]'.
 eg. 'prompt -help'.
 
-- prompt - Changes the prompt preceding the carrot \\
-- cpuinfo - Provides information related to the systems CPU \\
-- meminfo - Provides information related to the systems memory \\
+- prompt - Changes the prompt preceding the carrot
+- cpuinfo - Provides information related to the systems CPU
+- meminfo - Provides information related to the systems memory
 - exit - Exit the shell
 
 ### prompt
@@ -65,7 +65,7 @@ It uses the following exit codes to determine the result of the program.
 
 # Known Issues
 * Slightly inaccurate memory reporting with 'meminfo -u'
-The link below expands on the issue of using host\_statistics() to gather memory information. There is a discrepancy in how many pages are returned from the function call and the number of actual pages. This appears to be the fault of mach's implementation of memory reporting. None the less, I found the post below interesting.
+The link below expands on the issue of using host_statistics() to gather memory information. There is a discrepancy in how many pages are returned from the function call and the number of actual pages. This appears to be the fault of mach's implementation of memory reporting. None the less, I found the post below interesting.
 [StackOverflow](https://stackoverflow.com/questions/14789672/why-does-host-statistics64-return-inconsistent-results)
 
 # Example Output

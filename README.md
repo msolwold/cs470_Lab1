@@ -29,7 +29,7 @@ If no option is given, the default prompt will be set
 
 ### cpuinfo
 
-* cpuinfo -$<$switch$>$
+* cpuinfo -<switch>
 * Provides information related the systems CPU
 * Valid switches :
   * -c  CPU Clock Speed
@@ -38,7 +38,7 @@ If no option is given, the default prompt will be set
 
 ### meminfo
 
-* meminfo -$<$switch$>$
+* meminfo -<switch>
 * Provides information related the systems memory
 * Valid switches :
   * -t  Total system RAM
